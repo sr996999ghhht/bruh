@@ -81,10 +81,7 @@ for cc in ccs:
 print("Cross Compiling Done!")
 print("Setting up your httpd and tftp")
 
-run("yum install httpd -y")
-run("service httpd start")
-run("yum install xinetd tftp tftp-server -y")
-run("yum install vsftpd -y")
+run("service apache2 start")
 run("service vsftpd start")
 
 run('''echo -e "# default: off
